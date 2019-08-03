@@ -28,7 +28,7 @@
 
 	echo "<pre>";
 	print_r(solution($arr));
-
 	?>
+	<a href="https://app.codility.com/demo/results/trainingJ2W938-T5G/">Solution</a>
 </body>
 </html>
