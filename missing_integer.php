@@ -14,8 +14,8 @@
 
 		foreach($arr as $key => $value)
 		{
-			if($arr[$key]<=0) continue;
-			if($arr[$key] != $counter) return $counter;
+			if($key<=0) continue;
+			if($key != $counter) return $counter;
 			$counter++;
 		}
 
@@ -28,7 +28,8 @@
 
 	echo "<pre>";
 	print_r(solution($arr));
+
 	?>
-	<a href="https://app.codility.com/demo/results/trainingJ2W938-T5G/">Solution</a>
+	<a href="https://app.codility.com/demo/results/demoSTC6PR-YKY/">Solution</a>
 </body>
 </html>
